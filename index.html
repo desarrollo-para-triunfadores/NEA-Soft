@@ -205,7 +205,7 @@
                     </div>
                     <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
                         <h3 class="section-heading">Aplicaciones para moviles</h3>
-                        <div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                        <div class="sub-title lead3"></div>
                         <p class="lead">
                             Realizamos distintas apliacaciónes para celulares o tablets, geolocalizacion, ventas y facturación movil entre muchas otras, consulta nuestros precios
                         </p>
@@ -386,18 +386,70 @@
                 </div>
         </div>
         -->
+                   
+   
 
-        <!-- Banner Download -->
-        <div id="downloadlink" class="banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                        <h2>Estamos en Resistencia / Corrientes / Posadas</h2>
 
-                    </div>
+
+
+
+
+        <!-- Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-interval="4000" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src='img/slider/resistencia.jpg' alt="First slide">
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Resistencia <strong>CHACO</strong></span>
+                            </h2>                  
+                        </div>
+                    </div><!-- /header-text -->
                 </div>
+                <div class="item">
+                    <img src='img/slider/corrientes.jpg' alt="Second slide">
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Corrientes - CORRIENTES</span>
+                            </h2>       
+                        
+                        </div>
+                    </div><!-- /header-text -->
+                </div>
+                <div class="item">
+                   <img src='img/slider/posadas.jpg' alt="Third slide">
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Posadas - MISIONES</span>
+                            </h2>                      
+                        
+                        </div>
+                    </div><!-- /header-text -->
+                </div>                
             </div>
-        </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div><!-- /carousel -->
+ 
+
 
         <!-- Contact -->
         <div id="contact" class="content-section-a">
@@ -414,7 +466,7 @@
                             <div class="form-group">
                                 <label for="InputName">Tu Nombre</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nombre" required>
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Nombre" required>
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                                 </div>
                             </div>
@@ -422,7 +474,7 @@
                             <div class="form-group">
                                 <label for="InputEmail">Tu Correo</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required  >
+                                    <input type="email" class="form-control" id="email" name="InputEmail" placeholder="Email" required  >
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                                 </div>
                             </div>
@@ -430,7 +482,7 @@
                             <div class="form-group">
                                 <label for="InputMessage">Mensaje</label>
                                 <div class="input-group">
-                                    <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                                    <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                                 </div>
                             </div>
