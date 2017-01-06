@@ -1461,9 +1461,9 @@ if (typeof Object.create !== "function") {
         singleItem : false,
         itemsScaleUp : false,
 
-        slideSpeed : 200,
-        paginationSpeed : 800,
-        rewindSpeed : 1000,
+        slideSpeed : 6200,
+        paginationSpeed : 7800,
+        rewindSpeed : 6000,
 
         autoPlay : false,
         stopOnHover : false,
@@ -1477,7 +1477,7 @@ if (typeof Object.create !== "function") {
         paginationNumbers : false,
 
         responsive : true,
-        responsiveRefreshRate : 200,
+        responsiveRefreshRate : 6000,
         responsiveBaseWidth : window,
 
         baseClass : "owl-carousel",

@@ -54,11 +54,11 @@ $(document).ready(function () {
 
 
     $("#owl-demo33").owlCarousel({
-        autoPlay: 1000,
+        autoPlay: 5000,
         stopOnHover: true,
         navigation: false,
-        paginationSpeed: 1000,
-        goToFirstSpeed: 2000,
+        paginationSpeed: 5000,
+        goToFirstSpeed: 20000,
         singleItem: true,
         autoHeight: true,
         transitionStyle: "fade"
