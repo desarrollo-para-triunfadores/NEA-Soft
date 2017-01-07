@@ -1,4 +1,5 @@
 <?php
+
 require_once('PHPMailer-master/class.phpmailer.php');
 require_once('PHPMailer-master/class.smtp.php');
 $name       = $_POST['name'];
@@ -14,8 +15,8 @@ $correo->Port = 465;
 $correo->Username   = "mail.delivery@gmail.com";
 $correo->Password   = "cacereskuszniruk";
 $correo->SetFrom("mail.delivery@gmail.com", "www.NeaSoft.com.ar");
-$correo->AddAddress("info.neasoft@hotmail.com");
-$correo->addCC("jpcaceres.nea@gmail.com","Copia desde NeaSoft.com");
+$correo->AddAddress("jpcaceres.nea@gmail.com");
+$correo->addCC("jpaulnava@gmail.com","Copia desde NeaSoft.com");
 $correo->addCC("hacho.kuszniruk@gmail.com","Copia desde NeaSoft.com.com");
 
 $correo->Subject = ("Mensaje de visitante de www.NeaSoft.com.ar");
